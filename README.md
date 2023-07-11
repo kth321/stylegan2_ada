@@ -1,9 +1,5 @@
-# 2023 데이터 분석 캡스톤 디자인
-경희대학교 2023학년도 1학기 데이터 분석 캡스톤 디자인 프로젝트 소스코드와 실험 내용
-
-[💾구글 드라이브]
-
-https://drive.google.com/drive/folders/17XmO-7ouRrFzQDPdvLialWCknrlZGGAP?usp=sharing
+# StyleGAN2 Finetuning&Toonify
+경희대학교 2023-1학기 데이터 분석 캡스톤 디자인 프로젝트 
 
 # 내용 요약
  stylegan2에 ada 기술과 freezeD를 적용하여 기존 이미지에 toonifying을 적용한다. ffhq 데이터셋으로 pretrain된 모델을 추가적으로 학습하여 커스텀 데이터셋으로 학습한 모델을 생성한다. pretrain 된 모델을 하나의 모델로 사용하고, fine tuning한 모델을 나머지 하나의 모델로 사용하여 두 모델을 network blending(layer swapping)하여 최종적인 결과물을 만드는 것을 목표로 한다.
